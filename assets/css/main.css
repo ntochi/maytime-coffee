@@ -1,0 +1,267 @@
+
+body {
+    margin: 0;
+    background:#fff;
+}
+
+h1 { 
+    font-family: 'Lora';
+}
+
+/*NAVIGATION BAR & HERO SECTION*/
+.navbar-nav.navbar-center {
+    /*Centered navbar*/
+    position: absolute;
+    left: 50%;
+    transform: translatex(-60%);
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fcb1a6;  
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.btn-group-sm>.btn, .btn-sm{
+    font-size: 1rem;
+}
+
+.btn-group-sm>.btn, .btn-sm:hover{
+    background-color: #fcb1a6;
+}
+
+
+.carousel-item {
+    height: 110vh;
+    min-height: 270px;
+    width: 100vw;
+    background: no-repeat center center scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-animation:thing 15s;
+    -webkit-animation:thing 15s;
+    animation:thing 15s;
+    z-index: 20;
+}
+
+@keyframes thing {
+    from {
+      transform: scale(1, 1);
+    }
+  
+    to {
+        transform: scale(1.4, 1.4);
+    }
+}
+
+.carousel-caption{
+    bottom: 255px;
+
+}
+
+.carousel-caption h5{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 3px #fcb1a6;
+
+}
+
+.carousel-caption h5 span.letters {
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    color: #eb4b60;
+    font-family: 'Yellowtail', cursive;
+    font-weight: bolder;
+    font-size: 3.2rem;
+    text-shadow: initial;
+    line-height: 20px;
+}
+
+#b{
+    padding-left: 260px;
+}
+
+#c{
+    padding-left: 260px;
+}
+
+#d{
+    padding-left: 300px;
+}
+
+
+#header {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+
+
+/* OUR STORY SECTION */
+.containero{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+.box{
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;  /* for demo purpose  */
+}
+.stack-top{
+    z-index: 9;
+    margin: 20px; /* for demo purpose  */
+}
+
+
+
+
+/* .top {
+    width: 100vw;
+    height: 80vh;
+}
+
+.bottom{
+    width: 100vw;
+    height: 120vh;
+}
+
+
+#story{
+    position: relative;
+    width: 500px;
+    height: 200vh;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* MENU */
+#menu {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: aliceblue;
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1548693317-29b5d7aa748f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#menu h1 {
+    font-size: 3rem;
+   
+}
+
+#menu-two{
+    border: 2px;
+}
+
+
+#visit {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: aliceblue;
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/empty-store.jpg');
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#visit h1 {
+    /* Text styles */
+    font-size: 3rem;
+}
+
+
+/* Footer */
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    width: 100vw;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
