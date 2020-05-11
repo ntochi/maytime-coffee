@@ -25,7 +25,7 @@ h1 {
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #fcb1a6;  
+    color: #e55a6c;  
 }
 
 
@@ -40,7 +40,7 @@ h1 {
 }
 
 .btn-group-sm>.btn, .btn-sm:hover{
-    background-color: #fcb1a6;
+    background-color: #e55a6c;
 }
 
 
@@ -70,7 +70,6 @@ h1 {
 
 .carousel-caption{
     bottom: 255px;
-
 }
 
 .carousel-caption h5{
@@ -126,11 +125,7 @@ h1 {
 
 
 /* OUR STORY SECTION */
-/* #story{
-    position: relative;
-    width: 500px;
-    height: 200vh;
-} * */
+
 
 /* MENU SECTION */
 #menu {
@@ -160,9 +155,13 @@ h1 {
    
 }
 
-#menu-two{
+/* MAIN MENU SECTION*/
+#main-menu{
     border: 2px;
 }
+
+/* TESTIMONIALS  SECTION*/
+
 
 /* VISIT SECTION */
 #visit {
@@ -195,7 +194,7 @@ h1 {
 
 /* Footer */
 .page-footer {
-    background-color: #222;
+    background-color: #e55a6c;
     color: #ccc;
     width: 100vw;
     padding: 60px 0 30px;
