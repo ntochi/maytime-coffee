@@ -131,6 +131,14 @@ body {
     line-height: 2rem;
 }
 
+#full-menu .btn{
+    margin: 6%;
+    position: relative;
+    left: 35.5%;
+    background-color: #eb4b60;
+    color: white;
+}
+
 .transform{
 }
 
