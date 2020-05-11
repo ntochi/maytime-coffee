@@ -1,11 +1,12 @@
-
+/* General styles */
 body {
     margin: 0;
     background:#fff;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1 { 
-    font-family: 'Lora';
+.heading{
+    font-family: 'Yeseva One', cursive;
 }
 
 /*NAVIGATION BAR & HERO SECTION*/
@@ -80,9 +81,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 25px;
-    font-family: 'Roboto', sans-serif;
     text-shadow: 1px 1px 3px #fcb1a6;
-
 }
 
 .carousel-caption h5 span.letters {
@@ -96,32 +95,41 @@ h1 {
     line-height: 20px;
 }
 
-#b{
-    padding-left: 260px;
-}
-
-#c{
-    padding-left: 260px;
-}
-
-#d{
-    padding-left: 300px;
-}
-
 
 #header {
     width: 100vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-size: cover;
     background-position: center center ;
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
 
+
+/* Full Menu */
+#full-menu{
+    background-color: #fffffa;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    border: 2px solid #fcb1a6;
+}
+
+#full-menu .content{
+    padding-top: 10%;
+    line-height: 2rem;
+
+}
+
+#full-menu .row{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 5% 0;
+    line-height: 2rem;
+}
 
 
 /* OUR STORY SECTION */
