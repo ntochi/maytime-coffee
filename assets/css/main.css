@@ -3,6 +3,7 @@ body {
     margin: 0;
     background:#fff;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
 }
 
 .heading{
@@ -50,12 +51,12 @@ body {
     min-height: 270px;
     width: 100vw;
     background: no-repeat center center scroll;
+    background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: cover;
-    -moz-animation:thing 15s;
-    -webkit-animation:thing 15s;
-    animation:thing 15s;
+    animation: thing 11s;
+    -moz-animation: thing 11s;
+    -webkit-animation: thing 11s;
     z-index: 20;
 }
 
@@ -131,6 +132,14 @@ body {
     line-height: 2rem;
 }
 
+#full-menu h2{
+    font-size: 2.3rem;
+}
+
+#full-menu h5{
+    padding-top: 10%;
+}
+
 #full-menu .btn{
     margin: 6%;
     position: relative;
@@ -139,45 +148,35 @@ body {
     color: white;
 }
 
-.transform{
+.fade-in-left {
+    animation: fadeInLeft ease 5s;
+    animation-delay: 2s;
+
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+    
+/* Pastry */
+#pastry{
+    border: 2px solid yellow;
+}
+
+/* Our Story*/
+#story{
+    border: 2px solid #fcb1a6;
 }
 
 
-/* OUR STORY SECTION */
-
-
-/* MENU SECTION */
-#menu {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-
-    /* Flexbox */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Text styles */
-    text-align: center;
-    color: aliceblue;
-
-    /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1548693317-29b5d7aa748f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    background-size: cover;
-    background-position: center center ;
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-}
-
-#menu h1 {
-    font-size: 3rem;
-   
-}
-
-/* MAIN MENU SECTION*/
-#main-menu{
-    border: 2px;
-}
 
 /* TESTIMONIALS  SECTION*/
 
