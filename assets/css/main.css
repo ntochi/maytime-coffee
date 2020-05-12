@@ -6,9 +6,15 @@ body {
     font-size: 1.1rem;
 }
 
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 2.3rem;
+}
+
 .heading{
     font-family: 'Yeseva One', cursive;
 }
+
 
 /*NAVIGATION BAR & HERO SECTION*/
 .navbar-nav.navbar-center {
@@ -112,16 +118,13 @@ body {
 /* Full Menu */
 #full-menu{
     background-color: #fffffa;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
     border: 2px solid #fcb1a6;
+    width: 100vw;
 }
 
 #full-menu .content{
     padding-top: 10%;
     line-height: 2rem;
-
 }
 
 #full-menu .row{
@@ -130,10 +133,6 @@ body {
     margin: auto;
     padding: 5% 0;
     line-height: 2rem;
-}
-
-#full-menu h2{
-    font-size: 2.3rem;
 }
 
 #full-menu h5{
@@ -148,32 +147,65 @@ body {
     color: white;
 }
 
-.fade-in-left {
-    animation: fadeInLeft ease 5s;
-    animation-delay: 2s;
-
-}
-
-@keyframes fadeInLeft {
-    from {
-        opacity: 0;
-        transform: translate3d(-100%, 0, 0);
-    }
-    
-    to {
-        opacity: 1;
-        transform: none;
-    }
-}
     
 /* Pastry */
 #pastry{
     border: 2px solid yellow;
+    width: 100vw;
 }
 
 /* Our Story*/
 #story{
     border: 2px solid #fcb1a6;
+    width: 100vw;
+}
+
+.overflow{
+    padding: 10% 0 5%;
+    line-height: 2rem;
+}
+
+iframe{
+    width: 100vw;
+    height: 100vh;
+}
+
+.video_box{
+    position: relative;
+}
+
+.video_box::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+}
+
+.video_box::before blend{
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.video_box::before blend:hover{
+    content: '';
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 
