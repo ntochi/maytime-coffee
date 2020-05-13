@@ -131,24 +131,27 @@ h1{
     position: relative;
     width: 80%;
     margin: auto;
-    padding: 5% 0;
+    padding: 5% 0 2%;
     line-height: 2rem;
 }
 
+.img-thumbnail {
+    border: 0 none;
+}
+
 #full-menu h5{
-    padding-top: 10%;
+    padding-top: 3%;
 }
 
 #full-menu .btn{
-    margin: 6%;
+    margin: auto;
     position: relative;
-    left: 35.5%;
     background-color: #eb4b60;
     color: white;
 }
 
     
-/* Pastry */
+/* Pastries */
 #pastry{
     border: 2px solid yellow;
     width: 100vw;
@@ -244,10 +247,10 @@ iframe{
 
 /* Footer */
 .page-footer {
-    background-color: #e55a6c;
+    background-color: #252525;
     color: #ccc;
     width: 100vw;
-    padding: 60px 0 30px;
+    padding: 5% 0 2%;
 }
 
 .footer-copyright {
