@@ -15,6 +15,10 @@ h1{
     font-family: 'Yeseva One', cursive;
 }
 
+.img-thumbnail {
+    border: 0 none;
+}
+
 
 /*NAVIGATION BAR & HERO SECTION*/
 .navbar-nav.navbar-center {
@@ -135,27 +139,60 @@ h1{
     line-height: 2rem;
 }
 
-.img-thumbnail {
-    border: 0 none;
-}
 
 #full-menu h5{
     padding-top: 3%;
 }
 
 #full-menu .btn{
-    margin: auto;
-    position: relative;
     background-color: #eb4b60;
     color: white;
+    position: relative;
+    margin: 2.5% auto 5%;
 }
 
     
 /* Pastries */
 #pastry{
+    background-image: url("https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1944&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
     border: 2px solid yellow;
     width: 100vw;
+    color: aliceblue;
 }
+
+#pastry .content{
+    padding-top: 10%;
+    line-height: 2rem;
+}
+
+#pastry h1{
+    text-shadow: 3px 3px 10px #000000;
+}
+
+
+#pastry .row{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 5% 0 2%;
+    line-height: 2rem;
+}
+
+#pastry h5{
+    padding-top: 3%;
+}
+
+#pastry .btn{
+    margin: 2.5% auto 5%;
+    position: relative;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
 
 /* Our Story*/
 #story{
@@ -211,27 +248,22 @@ iframe{
     left: 0;
 }
 
+/* Testimonials */
+#testimonials{
+    border: 2px solid pink;
+}
 
 
-/* TESTIMONIALS  SECTION*/
-
-
-/* VISIT SECTION */
+/* Come Visit */
 #visit {
     /* Sizing */
     width: 100vw;
     height: 100vh;
-
-    /* Flexbox */
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* Text styles */
     text-align: center;
     color: aliceblue;
-
-    /* Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1565650839149-2c48a094196c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=747&q=80');
     background-size: cover;
     background-position: center center ;
@@ -240,7 +272,6 @@ iframe{
 }
 
 #visit h1 {
-    /* Text styles */
     font-size: 3rem;
 }
 
