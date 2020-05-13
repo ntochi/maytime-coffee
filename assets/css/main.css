@@ -15,9 +15,14 @@ h1{
     font-family: 'Yeseva One', cursive;
 }
 
-.img-thumbnail {
+.img-thumbnail{
     border: 0 none;
 }
+
+.text-shadow{
+    text-shadow: 3px 3px 12px #000000;
+}
+
 
 
 /*NAVIGATION BAR & HERO SECTION*/
@@ -168,11 +173,6 @@ h1{
     line-height: 2rem;
 }
 
-#pastry h1{
-    text-shadow: 3px 3px 10px #000000;
-}
-
-
 #pastry .row{
     position: relative;
     width: 80%;
@@ -251,6 +251,13 @@ iframe{
 /* Testimonials */
 #testimonials{
     border: 2px solid pink;
+    background-color: black;
+    color: aliceblue;
+    width: 100vw;
+}
+
+#testimonials .carousel-item{
+    margin: auto;
 }
 
 
