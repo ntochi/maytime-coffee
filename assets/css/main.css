@@ -100,7 +100,7 @@ h1{
     text-shadow: 1px 1px 3px #fcb1a6;
 }
 
-.carousel-caption h5 span.letters {
+#header .letters {
     letter-spacing: -2px;
     text-transform: lowercase;
     color: #eb4b60;
@@ -246,14 +246,6 @@ iframe{
     right: 0;
     bottom: 0;
     left: 0;
-}
-
-/* Testimonials */
-#testimonials{
-    border: 2px solid pink;
-    background-color: black;
-    color: aliceblue;
-    width: 100vw;
 }
 
 
