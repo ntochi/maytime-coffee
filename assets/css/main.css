@@ -25,9 +25,9 @@ h1{
 
 
 
-/*NAVIGATION BAR & HERO SECTION*/
+/*Navbar & Hero section*/
 i.icon{
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 i.icon:hover{
@@ -54,10 +54,25 @@ i.icon:hover{
 }
 
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+#navbarSupportedContent .nav-link{
     color: #fff;
-    text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 1rem; 
+}
+button.navbar-toggler{
+    background-color: #fff;
+}
+   
+.navbar-light{
+    transition: 500ms ease;
+    background: transparent;
+}
+  
+.navbar-light.scrolled{
+    background-color:#000;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
 }
 
 .btn-group-sm>.btn, .btn-sm{
@@ -167,7 +182,7 @@ i.icon:hover{
     
 /* Pastries */
 #pastry{
-    background-color: #252525;
+    background-color: #000;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
