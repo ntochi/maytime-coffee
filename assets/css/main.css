@@ -26,6 +26,14 @@ h1{
 
 
 /*NAVIGATION BAR & HERO SECTION*/
+i.icon{
+    font-size: 1.3em;
+}
+
+i.icon:hover{
+    color: #e55a6c;  
+}
+
 .navbar-nav.navbar-center {
     /*Centered navbar*/
     position: absolute;
@@ -58,6 +66,7 @@ h1{
 
 .btn-group-sm>.btn, .btn-sm:hover{
     background-color: #e55a6c;
+    color: #fff;
 }
 
 
@@ -127,7 +136,6 @@ h1{
 /* Full Menu */
 #full-menu{
     background-color: #fffffa;
-    border: 2px solid #fcb1a6;
     width: 100vw;
 }
 
@@ -159,11 +167,10 @@ h1{
     
 /* Pastries */
 #pastry{
-    background-image: url("https://images.unsplash.com/photo-1517433670267-08bbd4be890f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1944&q=80");
+    background-color: #252525;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
-    border: 2px solid yellow;
     width: 100vw;
     color: aliceblue;
 }
@@ -195,7 +202,7 @@ h1{
 
 
 /* Our Story*/
-#story{
+/* #story{
     border: 2px solid #fcb1a6;
     width: 100vw;
 }
@@ -226,28 +233,9 @@ iframe{
     height: 30%;
 }
 
-.video_box::before blend{
-    content: '';
-    position: absolute;
-    background: white;
-    border-radius: 5px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.video_box::before blend:hover{
-    content: '';
-    position: absolute;
-    background: white;
-    border-radius: 5px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
+.video_box:hover{
+    opacity: 5;
+} */
 
 /* Come Visit */
 #visit {
