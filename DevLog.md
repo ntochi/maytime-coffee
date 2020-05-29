@@ -1,6 +1,6 @@
 # Dev Log
 
-## Whats's Working
+## What's Working
 
 
 ## What's Left To Do
