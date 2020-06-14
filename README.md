@@ -1,4 +1,4 @@
-# maytime_coffee
+# Maytime Coffee
 
 Why Maytime? Because coffee tastes best in spring! :) 
 
